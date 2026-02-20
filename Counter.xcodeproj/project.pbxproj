@@ -11,10 +11,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		663F8E302F44AC8B000E0A41 /* Exceptions for "Counter" folder in "Counter" target */ = {
+		667140582F48A95400A09CD3 /* Exceptions for "Counter" folder in "Counter" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Counter/Info.plist,
 			);
 			target = 663F8E1D2F44AC8A000E0A41 /* Counter */;
 		};
@@ -24,7 +24,7 @@
 		663F8E202F44AC8A000E0A41 /* Counter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				663F8E302F44AC8B000E0A41 /* Exceptions for "Counter" folder in "Counter" target */,
+				667140582F48A95400A09CD3 /* Exceptions for "Counter" folder in "Counter" target */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -146,8 +146,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MMMLD7Y8R9;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Counter/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Counter/Counter/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -180,8 +180,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MMMLD7Y8R9;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Counter/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Counter/Counter/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
